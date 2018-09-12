@@ -1,10 +1,7 @@
-
 header {
   padding: 1em;
 }
 
-
-}
 .navbar {
   background: rgb(48, 44, 44);
 }
@@ -195,38 +192,4 @@ margin: 20px;
 }
 .desktop{
 display: none;
-}
-
-/* MEDIA QUERY */
-@media (min-width: 600px){
-.desktop{
-  display: block;
-}
-.mobile{
-  display: none;
-}
-}
-
-#lizhat{
-  margin-left:17%;
-  margin-top: 5%;
-}
-
-#p1{
-  margin-left:4%;
-  margin-right: 4%;
-}
-
-.color{
-  background:linear-gradient(to left,#b1c9ef, #d5b4ea, #b1c9ef);
-}
-
-#p2{
-  margin-left:3%;
-  margin-right:3%;
-  
-}
-#p3{
-  margin-left:7%;
-  padding-bottom: 7%;
 }
