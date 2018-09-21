@@ -206,3 +206,44 @@ display: none;
   display: none;
 }
 }
+
+#lizhat{
+  margin-left:17%;
+  margin-top: 5%;
+}
+
+#p1{
+  margin-left:4%;
+  margin-right: 4%;
+}
+
+.color{
+  background:linear-gradient(to left,#b1c9ef, #d5b4ea, #b1c9ef);
+}
+
+#p2{
+  margin-left:3%;
+  margin-right:3%;
+  
+}
+#p3{
+  margin-left:7%;
+  padding-bottom: 7%;
+}
+/* Grow */
+.hvr-grow {
+  display: inline-block;
+  vertical-align: middle;
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  transition-duration: 0.3s;
+  transition-property: transform;
+}
+
+.hvr-grow:hover,
+.hvr-grow:focus,
+.hvr-grow:active {
+  transform: scale(1.1);
+}

@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  
+  <script src='https://www.google.com/recaptcha/api.js'></script>
   <link rel="stylesheet" href="../css/contact.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
 <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">   
@@ -28,8 +28,8 @@
 <div class="contact">
 <div class="container-fluid">
   <div class="row">
-    <div class="col-md-7">
-        <form action="/action_page.php">
+    <div class="col-md-7 con">
+        <form action="../php/action_page.php">
           <label for="fname">First Name</label>
           <input type="text" id="fname" name="firstname" placeholder="Your name..">
       
@@ -43,6 +43,7 @@
           <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
       
           <input type="submit" value="Submit">
+          <div class="g-recaptcha" data-sitekey="6LefiXAUAAAAAJpActOBB5CWn6rvaZ5jkQ0q3Cuf"></div>
         </form>
     </div>
     <div class="mail">
